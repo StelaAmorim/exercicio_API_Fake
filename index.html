@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Filmes</h1>
+    </header>
+    <hr>
+
+    <nav>
+        <div>
+            <img onclick="VelozesFuriosos()" class="filmes" src="imagens/velozes9.png" alt="">
+            <p>Velozes e Furiosos 9</p>
+        </div>
+        <div>
+            <img onclick="HomemAranha()" class="filmes" src="imagens/homemAranha.png" alt="">
+            <p>Homem-Aranha: Sem Volta para Casa</p>
+        </div>
+        <div>
+            <img onclick="AlertaMaximo()" class="filmes" src="imagens/alertaMaximo.png" alt="">
+            <p>Alerta Máximo</p>
+        </div>
+        <div>
+            <img onclick="ProjetoAdam()" class="filmes" src="imagens/projetoAdam.png" alt="">
+            <p>O Projeto Adam</p>
+        </div>
+        <div>
+            <img onclick="InvocacaoMal()" class="filmes" src="imagens/invocacaoMal.png" alt="">
+            <p>Invocação do Mal</p>
+        </div>
+        <div>
+            <img onclick="MisterioMediterraneo()" class="filmes" src="imagens/misterioMediterraneo.png" alt="">
+            <p>Mistério no Mediterrâneo</p>
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="colTrailer">
+            <div id="trailer"></div>
+        </div>
+
+        <div class="informacoes">
+            <div class="coluna">
+                <div>
+                    <h3>Nome:</h3>
+                    <p id="nome"></p>
+                </div>
+                <div>
+                    <h3>Sinopse:</h3>
+                    <p id="sinopse"></p>
+                </div>
+            </div>
+            <div class="coluna">
+                <div>
+                    <h3>Gênero:</h3>
+                    <p id="genero"></p>
+                </div>
+                <div>
+                    <h3>Lançamento:</h3>
+                    <p id="ano"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

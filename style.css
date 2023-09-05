@@ -1,0 +1,59 @@
+body{
+    margin: 0 auto;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: larger;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.logo{
+    width: 100px;
+}
+nav{
+    margin: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+}
+.filmes{
+    width: 200px;
+    padding: 25px;
+    border-radius: 30px;
+}
+.filmes:hover{
+    transform: translateX(10px)scale(1.2);
+    filter: grayscale(100%);
+    transition: 1s;
+}
+main{
+    justify-content: space-evenly;
+    display: flex;
+    margin: 100px;
+    margin-top: 50px;
+}
+.informacoes{
+    width: 50%;
+    display: flex;
+}
+.coluna{
+    padding: 20px;
+    width: 50%;
+}
+p{
+    margin-bottom: 60px;
+}
+#trailer iframe{
+    width: 800px;
+    height: 450px;
+    border-radius: 25px;
+}
+.colTrailer{
+    width: 900px;
+}
